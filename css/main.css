@@ -1,0 +1,210 @@
+body{
+    position: relative;
+    width: 1512px;
+    height: 982px;
+    margin: 0;
+    
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.header{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    left: 356px;
+    top: 43px;
+
+    background: rgba(255, 251, 253, 0.5);
+    border: 6px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.12), inset 0px 0px 48px 5px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(31px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.menu{
+    position: absolute;
+    width: 607px;
+    height: 30px;
+    left: 96px;
+    top: 25px;
+    bottom: 25px;
+    right: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    font-family: 'Typold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 2px;
+
+    color: rgba(30, 30, 30, 0.5);
+
+}
+p:hover{
+    color: rgba(15, 13, 13, 0.5);
+    font-weight: 800;
+}
+p:active{
+    color: rgba(3, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.ell1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.sel1{
+    position: absolute;
+    width: 320px;
+    height: 424px;
+    left: 30px;
+    top: -53px;
+}
+
+.ellipse{
+    position: absolute;
+    width: 270px;
+    height: 283px;
+    left: -49px;
+    top: 116px;
+}
+
+.polygon{
+    position: absolute;
+    width: 237.07px;
+    height: 237.07px;
+    left: 288px;
+    top: 35.41px;
+}
+
+.poly{
+    position: absolute;
+    width: 153px;
+    height: 153px;
+    left: 311px;
+    top: 86.8px;    
+}
+.polys{
+    position: absolute;
+    width: 176.54px;
+    height: 176.54px;
+    left: 355px;
+    top: 120.8px;
+}
+.circle{
+    position: absolute;
+    width: 308px;
+    height: 289px;
+    left: 1142px;
+    top: -38px;
+}
+
+.cir{
+    width: 251px;
+    height: 251px;
+}
+
+.cirs{
+    position: absolute;
+    width: 291px;
+    height: 301px;
+    left: 42px;
+    top: 52px;
+}
+
+.rectangle{
+    position: absolute;
+    width: 226.32px;
+    height: 257.32px;
+    left: 165px;
+    top: 652px;
+}
+
+.rect{
+    width: 156px;
+    height: 156px;
+}
+
+.rects{
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    left: -58px;
+    top: -34px;
+}
+
+.g2{
+    position: absolute;
+    width: 434.52px;
+    height: 468.73px;
+    left: 1085px;
+    top: 532.82px;
+
+}
+
+.adeem{
+    position: absolute;
+    width: 773px;
+    height: 306px;
+    left: 369px;
+    top: 320px;
+    bottom: 356px;
+    right: 370px;
+}
+
+h1{
+    margin:0px;
+    font-family: 'Typold', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 273px;
+
+    color: #1E1E1E;
+}
+
+h5{
+    margin: 0;  
+    position: absolute;
+    width: 385px;
+    height: 73px;
+    left: 0px;
+    top: 236px;
+    bottom: 3px;
+    right: 388px;
+
+    font-family: 'Typold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #1E1E1E;
+}
+h2{
+    position: absolute;
+    width: 442px;
+    height: 69px;
+    left: 535px;
+    top: 779px;
+
+    font-family: 'Typold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: rgba(30, 30, 30, 0.6);
+}
